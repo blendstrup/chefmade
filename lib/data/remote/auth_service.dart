@@ -1,7 +1,7 @@
 import 'package:firebase_auth/firebase_auth.dart';
 
 class AuthService {
-  static Future<Map<String, String>?> login(
+  static Future<dynamic> login(
     FirebaseAuth auth,
     String userEmail,
     String userPassword,

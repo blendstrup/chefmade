@@ -33,12 +33,10 @@ class EmailService {
       },
     );
 
-    final url = _emailLaunchUri.toString();
-
-    if (await canLaunch(url)) {
-      await launch(url);
+    if (await canLaunchUrl(_emailLaunchUri)) {
+      await launchUrl(_emailLaunchUri);
     } else {
-      throw 'Could not launch $url';
+      throw 'Could not launch $_emailLaunchUri';
     }
   }
 }

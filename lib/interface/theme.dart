@@ -100,9 +100,9 @@ class AppTheme {
   //_lightColorScheme not corrected yet
   static const ColorScheme _lightColorScheme = ColorScheme(
     primary: AppColors.black,
-    primaryVariant: AppColors.black,
+    primaryContainer: AppColors.black,
     secondary: AppColors.blue,
-    secondaryVariant: AppColors.blue,
+    secondaryContainer: AppColors.blue,
     background: AppColors.background,
     surface: AppColors.white,
     onBackground: AppColors.white,
@@ -117,9 +117,9 @@ class AppTheme {
   //_darkColorScheme not corrected yet
   static const ColorScheme _darkColorScheme = ColorScheme(
     primary: AppColors.white,
-    primaryVariant: AppColors.white,
+    primaryContainer: AppColors.white,
     secondary: AppColors.blue,
-    secondaryVariant: AppColors.blue,
+    secondaryContainer: AppColors.blue,
     background: AppColors.darkGrey2,
     surface: AppColors.black,
     onBackground: AppColors.white, // White with 0.05 opacity

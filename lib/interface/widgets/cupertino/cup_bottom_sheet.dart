@@ -68,7 +68,6 @@ class _CupertinoModalTransition extends StatelessWidget {
   final Radius topRadius;
   final Curve? animationCurve;
   final Color backgroundColor;
-  final BoxShadow? boxShadow;
 
   final Widget body;
 
@@ -79,7 +78,6 @@ class _CupertinoModalTransition extends StatelessWidget {
     required this.topRadius,
     this.backgroundColor = Colors.black,
     this.animationCurve,
-    this.boxShadow,
   }) : super(key: key);
 
   @override
