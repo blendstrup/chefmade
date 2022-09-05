@@ -4,7 +4,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:intl/intl.dart';
 
 import '../../../../data/models/menu_model.dart';
-import '../../../../providers/restaurant_providers.dart';
+import '../../../../state/restaurant_providers.dart';
 import '../../common/expandable_section.dart';
 import '../../common/image.dart';
 import '../cup_chip.dart';

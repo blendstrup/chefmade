@@ -3,7 +3,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import '../../../../data/models/menu_model.dart';
-import '../../../../providers/restaurant_providers.dart';
+import '../../../../state/restaurant_providers.dart';
 import '../../common/base_async_builder.dart';
 import '../cup_material.dart';
 import 'cup_menu_info_loaded.dart';

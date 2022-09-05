@@ -5,7 +5,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
-import '../../../providers/restaurant_providers.dart';
+import '../../../state/restaurant_providers.dart';
 import 'base_async_builder.dart';
 
 class Login extends ConsumerWidget {

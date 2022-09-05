@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
-import '../../../providers/dinings/cup_modal_provider.dart';
+import '../../../state/dinings/cup_modal_provider.dart';
 import '../../widgets/common/base_page.dart';
 import '../../widgets/cupertino/cupertino_dinings_list_widgets/cup_dinings_list.dart';
 

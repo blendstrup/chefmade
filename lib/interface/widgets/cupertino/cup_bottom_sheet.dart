@@ -11,7 +11,7 @@ import 'package:flutter/widgets.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:modal_bottom_sheet/modal_bottom_sheet.dart';
 
-import '../../../providers/dinings/cup_modal_provider.dart';
+import '../../../state/dinings/cup_modal_provider.dart';
 
 const double _kPreviousPageVisibleOffset = 10;
 

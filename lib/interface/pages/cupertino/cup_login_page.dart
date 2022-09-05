@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
-import '../../../providers/repository_providers.dart';
+import '../../../state/repository_providers.dart';
 import '../../colors.dart';
 import '../../widgets/common/base_page.dart';
 

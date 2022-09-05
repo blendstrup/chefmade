@@ -3,8 +3,8 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import '../../../../data/models/dining_model.dart';
 import '../../../../data/repositories/email_repository.dart';
-import '../../../../providers/repository_providers.dart';
-import '../../../../providers/restaurant_providers.dart';
+import '../../../../state/repository_providers.dart';
+import '../../../../state/restaurant_providers.dart';
 import '../../../../utils/file_utilities.dart';
 
 class CupExportActionSheet extends ConsumerWidget {

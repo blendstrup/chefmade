@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
-import '../../../providers/repository_providers.dart';
+import '../../../state/repository_providers.dart';
 import '../../widgets/common/base_page.dart';
 import '../../widgets/material/mat_elevated_button.dart';
 import '../../widgets/material/mat_sliver_appbar.dart';

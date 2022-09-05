@@ -1,8 +1,8 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
-import '../../../../providers/dinings/dinings_providers.dart';
-import '../../../../providers/dinings/dinings_state.dart';
+import '../../../../state/dinings/dinings_providers.dart';
+import '../../../../state/dinings/dinings_state.dart';
 import '../../../colors.dart';
 import 'cup_dinings_list_entry.dart';
 import 'cup_dinings_list_month.dart';

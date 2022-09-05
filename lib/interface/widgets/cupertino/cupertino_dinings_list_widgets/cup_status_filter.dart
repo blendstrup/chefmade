@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
-import '../../../../providers/dinings/dinings_providers.dart';
+import '../../../../state/dinings/dinings_providers.dart';
 import '../../../colors.dart';
 
 class CupStatusFilter extends StatelessWidget {
